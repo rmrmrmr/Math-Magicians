@@ -4,26 +4,26 @@ class Calculator extends React.PureComponent {
   render() {
     return (
       <div className="flex flex-wrap w-screen h-screen">
-        <div className="flex w-full h-1/6 bg-slate-500 text-white text-8xl items-center justify-end px-3">0</div>
-        <div className="greyBttn">AC</div>
-        <div className="greyBttn">+/-</div>
-        <div className="greyBttn">%</div>
-        <div className="orangeBttn">÷</div>
-        <div className="greyBttn">7</div>
-        <div className="greyBttn">8</div>
-        <div className="greyBttn">9</div>
-        <div className="orangeBttn">x</div>
-        <div className="greyBttn">4</div>
-        <div className="greyBttn">5</div>
-        <div className="greyBttn">6</div>
-        <div className="orangeBttn">-</div>
-        <div className="greyBttn">1</div>
-        <div className="greyBttn">2</div>
-        <div className="greyBttn">3</div>
-        <div className="orangeBttn">+</div>
-        <div className="greyBttn w-1/2">0</div>
-        <div className="greyBttn">.</div>
-        <div className="orangeBttn">AC</div>
+        <p className="flex w-full h-1/6 bg-slate-500 text-white text-8xl items-center justify-end px-3">0</p>
+        <p className="greyBttn">AC</p>
+        <p className="greyBttn">+/-</p>
+        <p className="greyBttn">%</p>
+        <p className="orangeBttn">÷</p>
+        <p className="greyBttn">7</p>
+        <p className="greyBttn">8</p>
+        <p className="greyBttn">9</p>
+        <p className="orangeBttn">x</p>
+        <p className="greyBttn">4</p>
+        <p className="greyBttn">5</p>
+        <p className="greyBttn">6</p>
+        <p className="orangeBttn">-</p>
+        <p className="greyBttn">1</p>
+        <p className="greyBttn">2</p>
+        <p className="greyBttn">3</p>
+        <p className="orangeBttn">+</p>
+        <p className="greyBttn w-1/2">0</p>
+        <p className="greyBttn">.</p>
+        <p className="orangeBttn">AC</p>
       </div>
     );
   }
