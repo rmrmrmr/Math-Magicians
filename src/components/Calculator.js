@@ -23,7 +23,7 @@ class Calculator extends React.PureComponent {
         <p className="orangeBttn">+</p>
         <p className="greyBttn w-1/2">0</p>
         <p className="greyBttn">.</p>
-        <p className="orangeBttn">AC</p>
+        <p className="orangeBttn">=</p>
       </div>
     );
   }
