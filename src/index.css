@@ -29,3 +29,15 @@ code {
     'Courier New',
     monospace;
 }
+
+/* stylelint-disable */
+@layer components {
+  .greyBttn {
+    @apply flex w-1/4 h-1/6 bg-slate-200 hover:bg-slate-300 border-2 border-r-0 border-t-0 border-slate-600 items-center justify-center text-5xl text-slate-700;
+  }
+
+  .orangeBttn {
+    @apply flex w-1/4 h-1/6 bg-orange-400 hover:bg-orange-500 border-2 border-r-0 border-t-0 border-slate-600 items-center justify-center text-5xl text-slate-800;
+  }
+}
+/* stylelint-enable */
