@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <div className="flex w-screen flex-wrap justify-between p-8 gap-y-8">
+    <div className="flex w-screen h-screen flex-wrap justify-between p-8 gap-y-8">
       <h1 className="text-8xl w-4/5">Math Magicians</h1>
       <nav className="flex w-1/5 justify-between text-lg">
         <Link to="/">Home</Link>
