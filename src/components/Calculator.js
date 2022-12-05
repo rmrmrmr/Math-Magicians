@@ -27,7 +27,7 @@ export default function Calculator() {
       </nav>
       <h2 className="text-5xl w-2/4">Let&apos;s do some Math!</h2>
       <div className="flex flex-wrap w-2/4 h-4/5" id="calculator">
-        <span className="flex w-full h-1/6 bg-slate-500 text-white text-8xl items-center justify-end buttonx-3 rounded-t-2xl border-slate-600 border-2">
+        <span className="flex w-full h-1/6 bg-slate-500 text-white text-8xl items-center justify-end buttonx-3 rounded-t-2xl border-slate-600 border-2 overflow-hidden">
           { state.total }
           { state.operation }
           { state.next }
@@ -45,7 +45,7 @@ export default function Calculator() {
         <button className="greyBttn" type="button" name="6" onClick={handleClick}>6</button>
         <button className="orangeBttn" type="button" name="-" onClick={handleClick}>-</button>
         <button className="greyBttn" type="button" name="1" onClick={handleClick}>1</button>
-        <button className="greyBttn" type="button" name="3" onClick={handleClick}>2</button>
+        <button className="greyBttn" type="button" name="2" onClick={handleClick}>2</button>
         <button className="greyBttn" type="button" name="3" onClick={handleClick}>3</button>
         <button className="orangeBttn" type="button" name="+" onClick={handleClick}>+</button>
         <button className="greyBttn w-1/2 rounded-bl-2xl" type="button" name="0" onClick={handleClick}>0</button>
