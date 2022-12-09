@@ -5,6 +5,10 @@ describe('Testing operate.js', () => {
     expect(operate(10, 6, '+')).toBe('16');
   });
 
+  test('Plus operation', () => {
+    expect(operate(1, 9, '+')).toBe('10');
+  });
+
   test('Minus operation', () => {
     expect(operate(8, 5, '-')).toBe('3');
   });
@@ -31,5 +35,9 @@ describe('Testing operate.js', () => {
 
   test('Modulo operation', () => {
     expect(operate(5, 4, '%')).toBe('1');
+  });
+
+  test('Modulo operation', () => {
+    expect(operate(50, 5, '%')).toBe('0');
   });
 });
