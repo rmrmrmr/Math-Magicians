@@ -43,6 +43,12 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@ricmtza](https://twitter.com/ricmtza)
 - LinkedIn: [Ricardo Martínez](https://www.linkedin.com/in/ricardomtz7714/)
 
+👤 **ITALO**
+
+- GitHub: [@storres20](https://github.com/storres20)
+- Twitter: [@italolonkan](https://twitter.com/italolonkan)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/italo-lon-kan)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
